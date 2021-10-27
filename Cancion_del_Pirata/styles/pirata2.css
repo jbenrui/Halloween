@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+#container {
+    background-image: url("../images/one-piece.jpg");
+    width: 80%;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    background-size: cover;
+    padding: 5%;
+    /*height:100vh;/*Puede probocar que el poema se salga del container*/
+    background-position: 66%;
+
+}
+
+#poema {
+    background-color: rgba(245, 252, 146, 0.342);
+    padding: 5%;
+    width: 300px;/*Es un caso excepcional, y conviene fijar el ancho en pixeles porque el ancho de lineas de poema, y no rompe los versos. Ademas 300px cabe en cualqueir dispositivo.*/
+    margin: 20px;
+    
+}
