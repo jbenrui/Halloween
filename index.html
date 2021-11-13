@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Halloween Party</title>
+    <link rel="stylesheet" href="./styles/halloween.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="./javascript/halloween.js"></script>
+</head>
+<body>
+    <audio id=bossfight>
+        <source src="./sounds/DarkSouls.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id=running>
+        <source src="./sounds/Running.mp3" type="audio/mp3">
+    </audio>
+    <audio id=miedito>
+        <source src="./sounds/miedito.mp3" type="audio/mp3">
+    </audio>
+    <audio id=miedito2>
+        <source src="./sounds/miedito2.mp3" type="audio/mp3">
+    </audio>
+    <div id="container">
+        <h3 id="p1">In the night most dark</h3>
+        <h3 id="p2">Get out of your house, if you dare </h3>
+        <h4 id="p3">Don't talk with the man</h4>
+        <h5 id="p4"> talk</h5>
+        <h4 id="p5">Don't touch the knight</h4>
+        <h4 id="p6"> Don't touch the branchs</h4>
+        <div id="hombre"onclick="mostrar('GappingDragon');sonar('bossfight')"
+                        onclick="ocultar('GappingDragon');parar('bossfight')">
+        </div>
+        <img id="GappingDragon" src="./images/GappingDragon.gif">
+        <div id="knight"onclick="mostrar('surprise');sonar('running')"
+                        onclick="ocultar('surprise');parar('running')">
+        </div>
+        <img id="surprise" src="./images/Fornite-dance.gif">
+        
+        <div id="branch"onclick="mostrar('sustito');sonar('miedito')"
+                        onclick="ocultar('sustito');parar('miedito')">
+        </div>
+        <img id="sustito" src="./images/meme-shaggy.gif">
+
+        <div id="branch"onclick="mostrar('sustito');sonar('miedito')"
+                        onclick="ocultar('sustito');parar('miedito')">
+        </div>
+        <img id="sustito" src="./images/meme-shaggy.gif">
+
+        <div id="branch_2"  onclick="mostrar('sustito2');sonar('miedito2')"
+                            onclick="ocultar('sustito2');parar('miedito2')">
+        </div>
+        <img id="sustito2" src="./images/maincraft-zombie.gif">
+    </div>
+    
+</body>
+</html>

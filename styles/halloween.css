@@ -1,0 +1,138 @@
+/***************** Hoja de estilo para la presentación de halloween *********************/
+/***************** Importante: No es responsive                     *********************/
+
+@font-face {
+    font-family: Halloween;
+    src: url("../fonts/plasdrip.ttf");
+}
+body{
+    background-color:black;
+}
+#container{
+    width:1771px;/*Ancho DE LA IMAGEN*/
+    height: 911px;/*Alto DE LA IMAGEN*/
+    margin: auto;/*Centrado DE LA IMAGEN*/
+    background-image: url("../images/fondo_halloween.jpg") ;
+    
+    position: relative;/*El container se mueve*/
+    background-repeat: no-repeat;
+}
+
+#p1, #p2 , #p3 , #p5 , #p6 {
+    text-shadow: 5px 5px 5px red;
+    color: rgb(56, 53, 53);
+    font-family: Halloween;
+}
+
+#p1 {
+    position: absolute; /*fijado dentro del contenedor*/
+    top: 5px; /*cordenada vertical*/
+    left: 200px; /*cordenada horizontal*/
+    font-size: 4em;
+}
+
+#p2 {
+    position: absolute; /*fijado dentro del contenedor*/
+    top: 790px; /*cordenada vertical*/
+    left: 1110px; /*cordenada horizontal*/
+    font-size: 2em;
+    
+}
+
+#p3 {
+    position: absolute; /*fijado dentro del contenedor*/
+    top: 390px; /*cordenada vertical*/
+    left: 1265px; /*cordenada horizontal*/
+    font-size: 1.5em;
+
+}
+
+#p4 {
+    position: absolute; /*fijado dentro del contenedor*/
+    top: 500px; /*cordenada vertical*/
+    left: 1185px; /*cordenada horizontal*/
+    font-size: 0.7em;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(204, 20, 20);
+}
+#p5 {
+    position: absolute; /*fijado dentro del contenedor*/
+    top: 500px; /*cordenada vertical*/
+    left: 700px; /*cordenada horizontal*/
+    font-size: 1.5em;
+}
+#p6 {
+    position: absolute; /*fijado dentro del contenedor*/
+    top: 600px; /*cordenada vertical*/
+    left: 400px; /*cordenada horizontal*/
+    font-size: 1.5em;
+    color:rgb(58, 52, 52);
+}
+
+#hombre{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    top:450px;
+    left:1155px;
+}
+
+#GappingDragon{
+    position: absolute;
+    top:350px;
+    left:950px;
+    visibility:hidden; /* el dragon de entrada no se ve */
+    cursor: pointer;
+}
+
+#knight{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+
+    top:350px;
+    left:475px;
+}
+#surprise{
+    position: absolute;
+    top:250px;
+    width:300px;
+    left:475px;
+    visibility:hidden; /* el dragon de entrada no se ve */
+    cursor: pointer;
+}
+
+#branch{
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    top:420px;
+    left:5px;
+    
+}
+
+#sustito{
+    position: absolute;
+    width:300px;
+    top:420px;
+    left:5px;
+    visibility:hidden;
+    cursor: pointer;
+}
+
+#branch_2{
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    top:480px;
+    left:300px;
+}
+
+#sustito2{
+    position: absolute;
+    width:200px;
+    top:420px;
+    left:300px;
+    visibility:hidden;
+    cursor: pointer;
+}
